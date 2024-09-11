@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "figtree", serif;
+}
+
+body,
+html {
+  width: 100%;
+  font-size: 20px;
+}
+
+.outer {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.innerrectangle {
+  display: flex;
+  flex-direction: column;
+  height: 25rem;
+  width: 19rem;
+  background: hsl(0, 0%, 100%);
+  padding: 1rem;
+  justify-content: space-between;
+  border-radius: 1rem;
+  box-shadow: 1rem 1rem 1rem black;
+  border: 0.1rem solid black;
+}
+
+.pic {
+  width: 100%;
+  border-radius: 0.7rem;
+}
+
+.learning {
+  background: hsl(47, 88%, 63%);
+  font-weight: bold;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  border-radius: 0.5rem;
+}
+
+.first {
+  font-size: 0.8rem;
+}
+
+.secondline {
+  font-size: 1.3rem;
+  transition: 0.2s ease color;
+}
+.secondline:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.thirdline {
+  font-size: 0.8rem;
+  opacity: 0.5;
+}
+
+.end {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.end img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+.text {
+  font-size: 0.7rem;
+  font-weight: 900;
+}
+
+@media screen and (max-width:576px) {
+html{
+    font-size: 80%;
+}    
+}
